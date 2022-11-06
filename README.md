@@ -10,6 +10,17 @@ This is still under constant development </>
 
 <b>Technologies used in this project >>></b>
 <br />
-<b>Vite | HardHat (Blockchain Development Environment) | Avalence's Fuji Test Net (Blockchain) | Core Wallet (Web3 Wallet) |
-Typescript | Ether.js | ReactJS | TailwindCSS (Designing) | Solidity (Blockchain Developemnt Language)
+<b>
+
+<ul>
+    <li>Vite</li>
+    <li>HardHat (Blockchain Development Environment)</li>
+    <li>Vite</li>
+    <li>Avalence's Fuji Test Net (Blockchain)</li>
+    <li>Core Wallet (Web3 Wallet)</li>
+    <li>Typescript</li>
+    <li>Ether.js</li>
+    <li>TailwindCSS (Designing)</li>
+    <li>Solidity (Blockchain Developemnt Language)</li>
+</ul>
 </b>
