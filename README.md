@@ -24,3 +24,10 @@ This is still under constant development </>
     <li>Solidity (Blockchain Developemnt Language)</li>
 </ul>
 </b>
+
+<br />
+<br />
+
+Do check it out and feel free to give a <b>Star</b> if you like it :)
+<br />
+Also don't forget to put a <b>Star</b> on <b><a href="https://github.com/adrianhajdin/project_web3_battle_game">Adrian's Project</a></b> </>
