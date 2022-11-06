@@ -13,14 +13,14 @@ This is still under constant development </>
 <b>
 
 <ul>
-    <li>Vite</li>
+    <li>Vite (Project Setup)</li>
     <li>HardHat (Blockchain Development Environment)</li>
-    <li>Vite</li>
-    <li>Avalence's Fuji Test Net (Blockchain)</li>
+    <li>Avalence's Fuji Test Net (Blockchain Deployment)</li>
+    <li>Avalence (Gaming Logics)</li>
     <li>Core Wallet (Web3 Wallet)</li>
     <li>Typescript</li>
     <li>Ether.js</li>
-    <li>TailwindCSS (Designing)</li>
+    <li>TailwindCSS (Designing & Styling)</li>
     <li>Solidity (Blockchain Developemnt Language)</li>
 </ul>
 </b>
