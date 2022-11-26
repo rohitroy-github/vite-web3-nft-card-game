@@ -26,4 +26,6 @@ This is still under constant development </>
 </b>
 Do check it out and feel free to give a <b>Star</b> if you like it :)
 <br />
-Also don't forget to put a <b>Star</b> on <b><a href="https://github.com/adrianhajdin/project_web3_battle_game">Adrian's Project</a></b> </>
+Also don't forget to put a <b>Star</b> on <b><a href="https://github.com/adrianhajdin/project_web3_battle_game">Adrian's Project</a></b> 
+</>
+<br />
