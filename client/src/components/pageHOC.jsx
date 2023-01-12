@@ -1,16 +1,20 @@
 import React from "react";
-
 import {useNavigate} from "react-router-dom";
 
+// import Alert from "./Alert";
+import {useGlobalContext} from "../context";
 import {logo, heroImg} from "../assets";
 import styles from "../styles";
 
-const pageHOC = (Component, title, description) => () => {
+const PageHOC = (Component, title, description) => () => {
+  const {showAlert} = useGlobalContext();
   const navigate = useNavigate();
 
   return (
     <div className={styles.hocContainer}>
-      {/* {showAlert?.status && <Alert type={showAlert.type} message={showAlert.message} />} */}
+      {showAlert?.status && (
+        <Alert type={showAlert.type} message={showAlert.message} />
+      )}
 
       <div className={styles.hocContentBox}>
         <img
@@ -19,17 +23,17 @@ const pageHOC = (Component, title, description) => () => {
           className={styles.hocLogo}
           onClick={() => navigate("/")}
         />
-        {/* extracting title from the props */}
+
         <div className={styles.hocBodyWrapper}>
           <div className="flex flex-row w-full">
             <h1 className={`flex ${styles.headText} head-text`}>{title}</h1>
           </div>
-          {/* extracting description from the props */}
 
           <p className={`${styles.normalText} my-10`}>{description}</p>
 
           <Component />
         </div>
+
         <p className={styles.footerText}>
           Made by Rohit Roy with the help of Javascript Mastery !
         </p>
@@ -46,4 +50,4 @@ const pageHOC = (Component, title, description) => () => {
   );
 };
 
-export default pageHOC;
+export default PageHOC;
